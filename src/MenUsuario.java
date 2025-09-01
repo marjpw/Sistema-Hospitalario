@@ -25,6 +25,7 @@ public class MenUsuario {
     void IniciarSesion(){
         System.out.println("Usuario: ");
         String name = sc.nextLine();
+        sc.nextLine();
         System.out.println("Contraseña: ");
         int pssw = sc.nextInt();
     }

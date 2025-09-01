@@ -26,18 +26,18 @@ public class Admin {
         }while(opcion != 0);
     }
     void registrarPaciente(){
-
+        System.out.println("Registrando paciente.");
     }
     void registrarMedico(){
-
+        System.out.println("Registrando medico.");
     }
     void gestionarCitas(){
-
+        System.out.println("Gestionando citas.");
     }
     void generarFacturas(){
-
+        System.out.println("Generando facturas.");
     }
     void reportesGenerales(){
-
+        System.out.println("Mostrando reportes generales.");
     }
 }

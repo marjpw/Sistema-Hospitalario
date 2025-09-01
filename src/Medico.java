@@ -22,13 +22,12 @@ public class Medico {
     }
 
     void agendarCita(){
-
+        System.out.println("Agendando cita.");
     }
     void historialMedico(){
-
+        System.out.println("Mostrando historial medico del paciente.");
     }
     void registrarDiagnostico(){
-
+        System.out.println("Registrando diagnostico del paciente.");
     }
-
 }

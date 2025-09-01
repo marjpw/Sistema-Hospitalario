@@ -27,14 +27,17 @@ public class MainMenu {
     }
     void adminUser(){
         Admin admin = new Admin();
+        System.out.println("Espere un momento.");
         user.mostrarMenu();
     }
     void medicUser(){
         Medico medic = new Medico();
+        System.out.println("Espere un momento.");
         user.mostrarMenu();
     }
     void patientUser(){
         Paciente patient = new Paciente();
+        System.out.println("Espere un momento.");
         user.mostrarMenu();
     }
 }

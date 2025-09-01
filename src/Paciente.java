@@ -22,18 +22,18 @@ public class Paciente {
         }
     }
     void pedirCita(){
-
+        System.out.println("Pidiendo cita.");
     }
     void cancelarReprogramarCita(){
-
+        System.out.println("Cancalando o reprogramando cita.");
     }
     void historalCitas(){
-
+        System.out.println("Mostrando historial de citas.");
     }
     void verDiagnosticos(){
-
+        System.out.println("Mostrando diagnósticos generados por el doctor.");
     }
     void consultarFacturas(){
-
+        System.out.println("Mostrando las facturas.");
     }
 }
